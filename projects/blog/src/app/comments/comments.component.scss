@@ -1,0 +1,40 @@
+:host {
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.person-info-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    * {
+        padding-right: 10px;
+    }
+}
+
+h2 {
+    border-bottom: solid 2px;
+    border-color: aquamarine;
+}
+
+form {
+    width: 45%;
+    margin: 0px auto;
+    background-color: rgb(221, 221, 221);
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    * {
+        width: 100%;
+    }
+    button {
+        margin-top: 10px;
+        width: fit-content;
+        background-color: aquamarine;
+    }
+}
